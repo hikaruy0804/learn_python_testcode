@@ -25,6 +25,7 @@ Pythonコードで、**仕様書からテストコードの実装**を行いま�
 2.  **リポジトリのクローンと移動**
     ```bash
     git clone https://github.com/hikaruy0804/learn_python_testcode.git
+    cd learn_python_testcode
     ```
 
 3.  **仮想環境の作成**
@@ -69,7 +70,7 @@ uv run python -m unittest discover -s tests -p "test_*.py" -v
 
 **`pytest`の実行:**
 ```bash
-uv run pytest -v
+uv run pytest -v tests
 ```
 
 **実行結果の確認:**
