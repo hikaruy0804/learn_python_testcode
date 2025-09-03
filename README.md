@@ -24,8 +24,7 @@ Pythonコードで、**仕様書からテストコードの実装**を行いま�
 
 2.  **リポジトリのクローンと移動**
     ```bash
-    git clone <リポジトリのURL>
-    cd <リポジトリ名>
+    git clone https://github.com/hikaruy0804/learn_python_testcode.git
     ```
 
 3.  **仮想環境の作成**
